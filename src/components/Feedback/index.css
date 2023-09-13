@@ -1,0 +1,73 @@
+/* Write your CSS code here. */
+
+.head {
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.unorder-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.buttonemoj {
+  margin: 10px;
+  border-width: 0px;
+  background-color: transparent;
+}
+.emoji {
+  width: 80px;
+}
+.emoji-name {
+  font-size: 10px;
+}
+.thank-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.love-emoji {
+  width: 60px;
+}
+.thank-head {
+  font-size: 40px;
+}
+.para {
+  font-size: 25px;
+  text-align: center;
+  color: #1e293b;
+}
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+.bg-container {
+  background-size: cover;
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  height: 60%;
+  width: 60%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.bg-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
